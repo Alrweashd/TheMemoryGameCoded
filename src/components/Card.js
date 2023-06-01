@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "../assets/css/style.css";
 
-const Card = ({ card }) => {
+const Card = ({ card, index, changeCardStatus }) => {
+  const clicked = () => {
+    changeCardStatus(index);
+  };
+
   return (
-    <div className="card">
-      <img src={card.image} className="card"></img>
-    </div>
+    <>
+      <p>Status:{`${card.status}`}</p>
+      <div className="card">
+        <img src={card.image} onClick={clicked}></img>
+      </div>
+    </>
   );
 };
 
