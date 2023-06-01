@@ -9,8 +9,8 @@ function App() {
   return (
     <>
       <Intro />
-      <div>
-        <CardsList className="card" />
+      <div className="container">
+        <CardsList />
       </div>
     </>
   );
