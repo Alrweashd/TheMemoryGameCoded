@@ -5,7 +5,7 @@ const CardsList = () => {
   let ArrayOfCards = cards
     .filter((card) => card)
     .map((card) => <Card card={card} />);
-  return <div>{ArrayOfCards}</div>;
+  return <div className="container">{ArrayOfCards}</div>;
 };
 
 export default CardsList;

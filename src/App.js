@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Intro />
-      <div className="container">
+      <div>
         <CardsList />
       </div>
     </>
