@@ -4,86 +4,59 @@ let cards = [
     name: "slifer the sky dragon",
     image:
       "https://ygoprodeck.com/cdn-cgi/image/format=auto,width=313/https://images.ygoprodeck.com/images/cards/10000020.jpg",
-    status: false,
+    status: "",
   },
   {
     id: 2,
     name: "obelisk the tormentor",
     image:
       "https://ygoprodeck.com/cdn-cgi/image/format=auto,width=313/https://images.ygoprodeck.com/images/cards/10000000.jpg",
-    status: false,
+    status: "",
   },
   {
     id: 3,
     name: "the winged dragon of ra",
     image:
       "https://ygoprodeck.com/cdn-cgi/image/format=auto,width=313/https://images.ygoprodeck.com/images/cards/10000010.jpg",
-    status: false,
+    status: "",
   },
   {
-    id: 4,
+    id: 1,
     name: "slifer the sky dragon",
     image:
       "https://ygoprodeck.com/cdn-cgi/image/format=auto,width=313/https://images.ygoprodeck.com/images/cards/10000020.jpg",
 
-    status: false,
+    status: "",
   },
   {
-    id: 5,
+    id: 2,
     name: "obelisk the tormentor",
     image:
       "https://ygoprodeck.com/cdn-cgi/image/format=auto,width=313/https://images.ygoprodeck.com/images/cards/10000000.jpg",
-    status: false,
+    status: "",
   },
   {
-    id: 6,
+    id: 3,
     name: "the winged dragon of ra",
     image:
       "https://ygoprodeck.com/cdn-cgi/image/format=auto,width=313/https://images.ygoprodeck.com/images/cards/10000010.jpg",
-    status: false,
+    status: "",
   },
-  {
-    id: 7,
-    name: "slifer the sky dragon",
-    image:
-      "https://ygoprodeck.com/cdn-cgi/image/format=auto,width=313/https://images.ygoprodeck.com/images/cards/10000020.jpg",
-    status: false,
-  },
-  {
-    id: 8,
-    name: "obelisk the tormentor",
-    image:
-      "https://ygoprodeck.com/cdn-cgi/image/format=auto,width=313/https://images.ygoprodeck.com/images/cards/10000000.jpg",
-    status: false,
-  },
-  {
-    id: 9,
-    name: "the winged dragon of ra",
-    image:
-      "https://ygoprodeck.com/cdn-cgi/image/format=auto,width=313/https://images.ygoprodeck.com/images/cards/10000010.jpg",
-    status: false,
-  },
+
   ,
   {
-    id: 10,
+    id: 4,
     name: "Dark Magician",
     image:
       "https://ygoprodeck.com/cdn-cgi/image/format=auto,width=313/https://images.ygoprodeck.com/images/cards/46986414.jpg",
-    status: false,
+    status: "",
   },
   {
-    id: 11,
+    id: 4,
     name: "Dark Magician",
     image:
       "https://ygoprodeck.com/cdn-cgi/image/format=auto,width=313/https://images.ygoprodeck.com/images/cards/46986414.jpg",
-    status: false,
-  },
-  {
-    id: 12,
-    name: "Dark Magician",
-    image:
-      "https://ygoprodeck.com/cdn-cgi/image/format=auto,width=313/https://images.ygoprodeck.com/images/cards/46986414.jpg",
-    status: false,
+    status: "",
   },
 ];
 
