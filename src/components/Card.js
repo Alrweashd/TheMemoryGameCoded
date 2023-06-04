@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "../assets/css/style.css";
 
-const Card = ({ card, index, changeCardStatus, clickHandler, handleLogic }) => {
-  const clicked = () => {
-    changeCardStatus(index);
-    console.log(`${card.name} ${card.status}`);
-  };
+const Card = ({ card, index, handleLogic }) => {
+  //   const clicked = () => {
+  //     changeCardStatus(index);
+  //     console.log(`${card.name} ${card.status}`);
+  //   };
 
   return (
     <>

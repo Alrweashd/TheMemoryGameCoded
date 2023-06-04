@@ -3,16 +3,16 @@ body {
   padding: 0;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 
-  background-color: rgb(33, 33, 33);
+  background-color: rgba(207, 180, 142, 0.991);
   height: 100%;
 
   margin: 0 auto;
   padding: 0 auto;
 }
 
-h1 {
+h2 {
   text-align: center;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
 }
 
 .container {
@@ -27,7 +27,14 @@ h1 {
   grid-template-rows: repeat(4, 1fr);
   gap: 0.3rem;
 }
-
+.centering {
+  font-weight: 100;
+  height: 100px;
+  width: 100px;
+  margin: 30px;
+  background-color: brown;
+  font-size: x-large;
+}
 .card {
   background-image: url("./back_high[2].jpg");
   border-radius: 5px;
