@@ -9,7 +9,7 @@ const CardsList = () => {
   const score = useRef(0);
   //initial both preIndex and preCardS are -1
   const matchCheck = (currentIndex) => {
-    if (cards[currentIndex].id === cards[preCardState].id) {
+    if (cards[currentIndex].name === cards[preCardState].name) {
       console.log(cards[currentIndex].id);
       console.log(cards[preCardState].id);
       cards[preCardState].status = "active matched";
@@ -34,6 +34,9 @@ const CardsList = () => {
   };
 
   const handleLogic = (index) => {
+    if (preCardState !== -1 && preCardState == index) {
+      return;
+    }
     if (comp <= 2) {
       console.log(score.current);
       if (index !== preIndex) {
